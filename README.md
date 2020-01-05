@@ -15,10 +15,17 @@
  
  :bulb: 3. 下拉框下还有就业、教育、政治、计划生育叉表。
 
-##  :white_medium_square: Python档描述
+##  :large_blue_diamond: Python档描述
 ---
 + 主运行py文件为main.py 有且仅有一个py文件
 - 导入多个数据可视化模块，如（plotly、pyecharts、cufflinks等）
 + 读取多个数据文件、py文件render数据可视化地图.html、py文件render数据可视化图表.html
 - ' static ' 以及 ' templates ' 为网页样式以及模版
 + 其余为本项目引用的数据文档（csv）
+
+##  :large_orange_diamond: HTML档描述
+---
++ base.html为基模板，其实frist.html、historical_event.html、rencent_data.html、result2.html继承了基模板。
+- 有多个html主要用于导入数据；生成可视化图表，最后render进py
++ 除了在hf.css中输入css样式，也可在各输出网页的html上增加一些css样式，还可以引入javascript制作好看的动态效果。
+
