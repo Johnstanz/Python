@@ -3,7 +3,7 @@
 ---
 > 此项目为中大南方18级Python课程期末项目，与17级合作完成。<br>
 项目内容为通过使用Python完成数据处理、可视化操作，并部署于PythonAnywhere上展示。
-+ [ :v: 点击展示呀](http://womenpowerteam.pythonanywhere.com/)
++ [ :v: Pythonanywhere页面展示呀](http://womenpowerteam.pythonanywhere.com/)
 
 ##  :page_facing_up: HTML页面描述
 ---
