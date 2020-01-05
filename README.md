@@ -44,10 +44,10 @@
 
 ## :vhs: 数据传递描述
 ---
-+ 数据结构循环 ： for i in range(2006, 2018):  【详情见main.py line 36】
-- 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】
-+ 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入
-+ 使用条件判断：
+ :sailboat: + 数据结构循环 ： for i in range(2006, 2018):  【详情见main.py line 36】
+ :tram: - 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】
+ :aerial_tramway: + 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入
+ :suspension_railway: + 使用条件判断：
 
 >     if the_region =="中小学女生与男生的入学比例（%）":
         with open("1.html", encoding="utf8", mode="r") as f:                  
@@ -63,7 +63,7 @@
             text = """1. 北非，南亚和中亚五国中的土库曼斯坦、阿富汗斯坦与大洋洲岛国、东南亚地区除新马泰以外的国家孕妇死亡率较高。
 					  \n2. 欧洲澳洲北美地区和东亚地区的孕妇死亡率较低。
 
-+ Python文档与HTML文档数据交互
+ :train2: + Python文档与HTML文档数据交互
 > import dash_html_components as html<br>
 map_world().render('1.html')<br>
 with open("3.html", encoding="utf8", mode="r") as f: <br>
