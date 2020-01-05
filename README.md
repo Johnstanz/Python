@@ -64,5 +64,8 @@
 					  \n2. 欧洲澳洲北美地区和东亚地区的孕妇死亡率较低。
 
 + Python文档与HTML文档数据交互
-> import dash_html_components as html<br>map_world().render('1.html')<br>with open("3.html", encoding="utf8", mode="r") as f: <br>return render_template('First.html'
+> import dash_html_components as html<br>
+map_world().render('1.html')<br>
+with open("3.html", encoding="utf8", mode="r") as f: <br>
+return render_template('First.html'
 
