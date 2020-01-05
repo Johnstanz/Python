@@ -64,7 +64,7 @@
             text = """1. 北非，南亚和中亚五国中的土库曼斯坦、阿富汗斯坦与大洋洲岛国、东南亚地区除新马泰以外的国家孕妇死亡率较高。
 					  \n2. 欧洲澳洲北美地区和东亚地区的孕妇死亡率较低。
 
- :train2: + Python文档与HTML文档数据交互
+ :train2:  **Python文档与HTML文档数据交互**
 > import dash_html_components as html<br>
 map_world().render('1.html')<br>
 with open("3.html", encoding="utf8", mode="r") as f: <br>
