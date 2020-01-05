@@ -42,4 +42,22 @@
 - 模块符合标准： 如pandas、pyecharts、cufflinks等模块
 + 功能拓展：数据可视化的世界地图可放大缩小、不同国家的选取块不同、鼠标悬停后还有文字介绍。
 
-
+## :vhs: 数据传递描述
+---
++ 数据结构循环 ： for i in range(2006, 2018):  【详情见main.py line 36】
+- 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】
++ 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入
++ 使用条件判断：
+>     if the_region =="中小学女生与男生的入学比例（%）":
+        with open("1.html", encoding="utf8", mode="r") as f:                  
+            plot_all3 = "".join(f.readlines())  
+            text = '同一教育阶段的女生正越来越获得与男生一样平等的教育机会。'
+    elif the_region=="国家议会中妇女席位的比例（%）":
+        with open("2.html", encoding="utf8", mode="r") as f:                  
+            plot_all3 = "".join(f.readlines())
+            text = '政治领域性别比例改善，从政女性数量的大幅增加。'
+    elif the_region=="孕产妇死亡率（每10万例活产中所占比例）":
+        with open("3.html", encoding="utf8", mode="r") as f:                  
+            plot_all3 = "".join(f.readlines())
+            text = """1. 北非，南亚和中亚五国中的土库曼斯坦、阿富汗斯坦与大洋洲岛国、东南亚地区除新马泰以外的国家孕妇死亡率较高。
+					  \n2. 欧洲澳洲北美地区和东亚地区的孕妇死亡率较低。
