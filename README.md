@@ -38,4 +38,8 @@
 
 ## :white_flower: 自定义函数模块与功能拓展
 ---
++ 函数取名符合标准： 如map_world、update_graph等函数
+- 模块符合标准： 如pandas、pyecharts、cufflinks等模块
++ 功能拓展：数据可视化的世界地图可放大缩小、不同国家的选取块不同、鼠标悬停后还有文字介绍。
+
 
