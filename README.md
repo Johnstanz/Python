@@ -44,10 +44,10 @@
 
 ## :vhs: 数据传递描述
 ---
- :sailboat: + 数据结构循环 ： for i in range(2006, 2018):  【详情见main.py line 36】
- :tram: - 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】
- :aerial_tramway: + 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入
- :suspension_railway: + 使用条件判断：
+ :sailboat: + 数据结构循环 ： for i in range(2006, 2018):  【详情见main.py line 36】<br>
+ :tram: - 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】<br>
+ :aerial_tramway: + 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入<br>
+ :suspension_railway: + 使用条件判断：<br>
 
 >     if the_region =="中小学女生与男生的入学比例（%）":
         with open("1.html", encoding="utf8", mode="r") as f:                  
