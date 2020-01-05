@@ -48,6 +48,7 @@
 - 数据嵌套 ： list(zip(list(df3['CountryName']),list(df3["{}".format(i)])))  【详情见main.py line 40】
 + 使用推导式：the_region = request.form["the_region_selected1"] ## 取得用户交互输入
 + 使用条件判断：
+
 >     if the_region =="中小学女生与男生的入学比例（%）":
         with open("1.html", encoding="utf8", mode="r") as f:                  
             plot_all3 = "".join(f.readlines())  
